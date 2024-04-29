@@ -1,0 +1,39 @@
+{
+    "mail_server": {
+        "address": "127.0.0.1",
+        "smtp_port": 2500,
+        "pop3_port": 1100
+    },
+    "user": {
+        "mail": "1",
+        "username": "1",
+        "password": "1"
+    },
+    "misc": {
+        "time": 60,
+        "size": 3
+    },
+    "filter": {
+        "Spam": {
+            "placeToFilter": "spam",
+            "keyList": "ASAP, work"
+        },
+
+
+        "foldername": {
+            "placeToFilter": "subject",
+            "keyList": "alo, nhanh"
+        },
+
+
+        "hack": {
+            "placeToFilter": "content",
+            "keyList": "Virus, sus"
+        },
+
+        "boss": {
+            "placeToFilter": "from",
+            "keyList": "2, 2@2.com"
+        }
+    }
+}
